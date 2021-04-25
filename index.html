@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,17 @@
     <link rel="manifest" href="/site.webmanifest">
     <title>Portfólio</title>
 </head>
+
 <body>
 
     <div class="container">
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
+
         <header>
             <div class="img-wrapper">
                 <img src="images/bg.jpg" alt="">
@@ -23,8 +32,25 @@
                 <p>Marcus Vinicius Cavalcanti Machado</p>
                 <button>Saiba mais</button>
             </div>
-        </header>        
-    </div>
+        </header>
 
+        <div class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
