@@ -15,6 +15,10 @@
     --font-action: "Mulish", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hamburguer {
     /*background-color: red;*/
     width: 2rem;
@@ -234,7 +238,7 @@ header {
     background-color: #a044ff;
 }
 
-div.conhecimentos {
+.conhecimentos {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 6rem);
@@ -324,6 +328,7 @@ div.conhecimentos {
 .projetos {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
 }
 
 .card {
@@ -568,4 +573,52 @@ div.conhecimentos {
     padding: 1rem;
     cursor: pointer;
     grid-column: 2;
+}
+
+footer {
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social-list a {
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.3rem;
+}
+
+.social-list ul {
+    display: flex;
+}
+
+#link-topo {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to left, #a044ff, #6a3093);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: .3rem;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.9);
 }
