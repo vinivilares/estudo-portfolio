@@ -1,6 +1,6 @@
-# portfolio
+# Portfolio do desenvolvedor 
 
-Portfolio do desenvolvedor 
+Site de portifolio desenvolvido para estudos
 
 ## Tarefas
 
